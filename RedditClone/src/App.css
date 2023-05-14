@@ -12,9 +12,11 @@ header {
   display:flex;
   flex-grow: 1;
   align-items: center;
+  padding:0 20px;
 }
 .nav-left {
   flex-grow: 1;
+  display: flex;
 }
 .header-searchbar {
   outline: none;
@@ -22,13 +24,23 @@ header {
   font-size: 14px;
   line-height: 14px;
 }
-.header-searchbar-container {
-  height:48px
-}
+
 .side-drawer {
   width: 270px;
   display: flex;
   flex-direction: column;
   background-color: #1e1e1e;
   color:white
+}
+.input-container {
+  flex-grow:1;
+}
+.input-container input {
+  height:40px;
+  border-radius:40px;
+  background-color:#272729;
+}
+.header-searchbar-container {
+width: 100%;
+margin:0 60px;
 }

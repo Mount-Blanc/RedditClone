@@ -8,8 +8,8 @@ function App() {
       <div className='header-container'>
         <div className='nav-left'>
       <div>logo</div>
-      <div >
-        <form>
+      <div className='header-searchbar-container' >
+        <form className='input-container'>
           <input className='header-searchbar' placeholder='Search Reddit'/>
         </form>
       </div>
