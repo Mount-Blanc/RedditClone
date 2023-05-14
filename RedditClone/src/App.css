@@ -16,3 +16,19 @@ header {
 .nav-left {
   flex-grow: 1;
 }
+.header-searchbar {
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  line-height: 14px;
+}
+.header-searchbar-container {
+  height:48px
+}
+.side-drawer {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  color:white
+}
