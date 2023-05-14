@@ -19,6 +19,7 @@ function App() {
     </header>
     <main>
       <div className='side-drawer'>Side panel
+      <div className='sidedrawer-heading'>Feeds</div>
       <button>
         <span>
           <span>Home</span>
@@ -29,6 +30,8 @@ function App() {
           <span>Popular</span>
           </span>
           </button>
+          <div className='sidedrawer-heading'>Topics</div>
+
           <button>
         <span>
           <span>Gaming</span>
