@@ -20,35 +20,35 @@ function App() {
     <main>
       <div className='side-drawer'>Side panel
       <div className='sidedrawer-heading'>Feeds</div>
-      <button>
-        <span>
+      <button className='sidedrawer-button'>
+        <span className='topic-button'>
           <span>Home</span>
           </span>
           </button>
-          <button>
-        <span>
+          <button className='sidedrawer-button'>
+        <span className='topic-button'>
           <span>Popular</span>
           </span>
           </button>
           <div className='sidedrawer-heading'>Topics</div>
 
-          <button>
-        <span>
+          <button className='sidedrawer-button'>
+        <span className='topic-button'>
           <span>Gaming</span>
           </span>
           </button>
-          <button>
-        <span>
+          <button className='sidedrawer-button'>
+        <span className='topic-button'>
           <span>Sports</span>
           </span>
           </button>
-          <button>
-        <span>
+          <button className='sidedrawer-button'>
+        <span className='topic-button'>
           <span>Business,Economics</span>
           </span>
           </button>
-          <button>
-        <span>
+          <button className='sidedrawer-button'>
+        <span className='topic-button'>
           <span>Crypto</span>
           </span>
           </button> 
