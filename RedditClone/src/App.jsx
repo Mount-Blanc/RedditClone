@@ -53,7 +53,19 @@ function App() {
           </span>
           </button> 
                    </div>
-
+    <div>
+      <div>
+        <div className='post-header'>
+          <div>
+            <span className='post-header-category'>Hot</span>
+            <span className='post-header-category'>Everywhere</span>
+            <span >New</span>
+            <span >Top</span>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </div>
     </main>
     </>
   )
