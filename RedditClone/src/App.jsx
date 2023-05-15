@@ -20,16 +20,16 @@ function App() {
     <main>
       <div className='side-drawer'>Side panel
       <div className='sidedrawer-heading'>Feeds</div>
-      <button className='sidedrawer-button'>
+      <a href='' className='sidedrawer-button'>
         <span className='topic-button'>
           <span>Home</span>
           </span>
-          </button>
-          <button className='sidedrawer-button'>
+          </a>
+          <a href='' className='sidedrawer-button'>
         <span className='topic-button'>
           <span>Popular</span>
           </span>
-          </button>
+          </a>
           <div className='sidedrawer-heading'>Topics</div>
 
           <button className='sidedrawer-button'>

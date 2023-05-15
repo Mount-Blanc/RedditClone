@@ -38,22 +38,29 @@ header {
 .input-container input {
   height:40px;
   border-radius:40px;
-  background-color:#272729;
+  background-color:#313131;
 }
 .header-searchbar-container {
 width: 100%;
 margin:0 60px;
 }
 .sidedrawer-heading {
-  padding:16px 24px 8px
+  padding:16px 24px 8px;
+  line-height:16px;
 }
 .topic-button {
   display: flex;
+  padding: 8px 30px;
+  width: 100%;
+}
+.sidedrawer-button :hover {
+  background-color:#313131 ;
 }
 .sidedrawer-button {
-  padding: 8px 4px;
+  padding: 0 4px;
   background: transparent;
   border: none;
   cursor: pointer;
   color: white;
+  overflow: hidden;
 }
