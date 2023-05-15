@@ -17,6 +17,8 @@ header {
 .nav-left {
   flex-grow: 1;
   display: flex;
+  width: 100%;
+border-bottom: 2px solid #313131;
 }
 .header-searchbar {
   outline: none;
