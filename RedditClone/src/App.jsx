@@ -63,6 +63,17 @@ function App() {
             <span >Top</span>
           </div>
         </div>
+        <div className='post'>
+          <div>votebar</div>
+          <div>
+            <div>r/n</div>
+            <span>Posted by u/n</span>
+            <span>n hours ago</span>
+          </div>
+          <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit pariatur, aperiam odio nobis a quod sed quaerat autem similique corrupti velit dolor, ratione saepe in. Quam consequuntur quas porro nostrum.</div>
+          <div>image</div>
+          <div>interaction</div>
+        </div>
       </div>
       <div></div>
     </div>
