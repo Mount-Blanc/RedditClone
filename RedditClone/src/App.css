@@ -67,10 +67,19 @@ margin:0 60px;
   color: white;
   overflow: hidden;
 }
+.rating-header {
+  background-color: rgb(31, 31, 31);
+  color: white;
+  padding:20px;
+  border-radius: 4px;
+  display: flex;
+  border-radius: 5px;
+
+}
 .post-header {
   background-color: rgb(31, 31, 31);
   color: white;
-  padding: 20px;
+  padding:0px 20px 20px 0px;
   border-radius: 4px;
   display: flex;
   border-radius: 5px;
@@ -85,8 +94,11 @@ margin:0 60px;
 background-color: #1e1e1e;
 margin-top:.7rem;
 color:white;
-padding: 20px;
+padding: 0px 60px 0px 60px;
 border-radius: 5px;
+border: 2px solid #373839;
+position: relative;
+
 }
 .vote-bar {
   left:0;
@@ -95,4 +107,5 @@ border-radius: 5px;
 }
 .post-container {
   padding:20px;
+
 }
