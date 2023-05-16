@@ -54,7 +54,7 @@ function App() {
           </button> 
                    </div>
     <div>
-      <div>
+      <div className='post-container'>
         <div className='post-header'>
           <div>
             <span className='post-header-category'>Hot</span>
@@ -64,8 +64,8 @@ function App() {
           </div>
         </div>
         <div className='post'>
-          <div>votebar</div>
-          <div>
+          <div className='vote-bar'>votebar</div>
+          <div className='post-header'>
             <div>r/n</div>
             <span>Posted by u/n</span>
             <span>n hours ago</span>

@@ -72,6 +72,9 @@ margin:0 60px;
   color: white;
   padding: 20px;
   border-radius: 4px;
+  display: flex;
+  border-radius: 5px;
+
 }
 .post-header-category {
   background-color: #373839;
@@ -82,4 +85,14 @@ margin:0 60px;
 background-color: #1e1e1e;
 margin-top:.7rem;
 color:white;
+padding: 20px;
+border-radius: 5px;
+}
+.vote-bar {
+  left:0;
+  top:0;
+  position: absolute;
+}
+.post-container {
+  padding:20px;
 }
