@@ -33,7 +33,9 @@ header {
   display: flex;
   flex-direction: column;
   background-color: #1e1e1e;
-  color:white
+  color:white;
+  position: absolute;
+  left:0;
 }
 .input-container {
   flex-grow:1;
@@ -108,4 +110,13 @@ position: relative;
 .post-container {
   padding:20px;
 
+}
+.interaction-bar {
+  display: flex;
+}
+.main-container {
+  position: relative;
+}
+.main-component-container {
+  margin-left:280px ;
 }

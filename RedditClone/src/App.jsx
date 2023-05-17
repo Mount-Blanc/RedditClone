@@ -18,7 +18,7 @@ function App() {
       </div>
     </header>
     <main>
-      <div>
+      <div className='main-container'>
       <div className='side-drawer'>Side panel
       <div className='sidedrawer-heading'>Feeds</div>
       <a href='' className='sidedrawer-button'>
@@ -54,7 +54,7 @@ function App() {
           </span>
           </button> 
                    </div>
-    <div>
+    <div className='main-component-container'>
       <div className='post-container'>
         <div className='rating-header'>
           <div>
@@ -76,7 +76,11 @@ function App() {
 
           <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit pariatur, aperiam odio nobis a quod sed quaerat autem similique corrupti velit dolor, ratione saepe in. Quam consequuntur quas porro nostrum.</div>
           <div>image</div>
-          <div>interaction</div>
+          <div className='interaction-bar'>
+            <div>comments</div>
+            <div>share</div>
+            <div>save</div>
+          </div>
           </div>
         </div>
       </div>
