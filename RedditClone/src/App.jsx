@@ -77,9 +77,9 @@ function App() {
           <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit pariatur, aperiam odio nobis a quod sed quaerat autem similique corrupti velit dolor, ratione saepe in. Quam consequuntur quas porro nostrum.</div>
           <div>image</div>
           <div className='interaction-bar'>
-            <div>comments</div>
-            <div>share</div>
-            <div>save</div>
+            <div className='interaction-button'>comments</div>
+            <div className='interaction-button'>share</div>
+            <div className='interaction-button'>save</div>
           </div>
           </div>
         </div>
