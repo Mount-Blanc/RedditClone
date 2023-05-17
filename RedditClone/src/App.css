@@ -91,6 +91,11 @@ margin:0 60px;
   background-color: #373839;
   padding: 10px;
   border-radius: 14px;
+  margin-inline: 8px;
+}
+.post-header-category:hover {
+  background-color: #3f4041;
+  cursor: pointer;
 }
 .post {
 background-color: #1e1e1e;

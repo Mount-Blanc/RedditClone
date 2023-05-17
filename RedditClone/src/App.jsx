@@ -60,8 +60,8 @@ function App() {
           <div>
             <span className='post-header-category'>Hot</span>
             <span className='post-header-category'>Everywhere</span>
-            <span >New</span>
-            <span >Top</span>
+            <span  className='post-header-category' >New</span>
+            <span  className='post-header-category' >Top</span>
           </div>
         </div>
         <div className='post'>
