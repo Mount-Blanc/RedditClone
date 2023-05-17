@@ -19,7 +19,7 @@ function App() {
     </header>
     <main>
       <div className='main-container'>
-      <div className='side-drawer'>Side panel
+      <div className='side-drawer'>
       <div className='sidedrawer-heading'>Feeds</div>
       <a href='' className='sidedrawer-button'>
         <span className='topic-button'>
